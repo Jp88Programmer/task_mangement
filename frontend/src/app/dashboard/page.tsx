@@ -18,7 +18,7 @@ export default function DashboardPage() {
         <div>
           <h2 className="text-3xl font-bold tracking-tight">Welcome back, {user.name.split(" ")[0]}!</h2>
           <p className="text-muted-foreground">
-            Here's what's happening with your projects and tasks.
+            {"Here's"} {"what's"} happening with your projects and tasks.
           </p>
         </div>
         <div className="flex items-center space-x-2">
