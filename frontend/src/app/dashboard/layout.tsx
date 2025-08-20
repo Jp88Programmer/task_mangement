@@ -18,6 +18,7 @@ export default function DashboardLayout({
 }: {
   children: React.ReactNode
 }) {
+  
   return (
     <ProtectedRoute>
       <div className={cn("min-h-screen bg-background font-sans antialiased", inter.className)}>
